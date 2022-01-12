@@ -1,0 +1,39 @@
+.c {
+    height: 100vh;
+    position: relative;
+}
+
+.c-bg {
+    width: 20px;
+    height: 100%;
+    background-color: rgb(98, 71, 170);
+    position: absolute;
+}
+
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.c-left {
+    flex: 1;
+}
+
+.c-right {
+    flex: 1;
+}
+
+.c-title {
+    font-size: 60px;
+    width: 80%;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+}
+
+.c-info-item .c-icon {
+    width: 35px;
+    height: 35px;
+}

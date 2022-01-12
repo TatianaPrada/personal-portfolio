@@ -1,5 +1,6 @@
 import './productList.css'
 import Product from '../product/Product'
+import products from '../../data.js'
 
 export default function ProductList() {
     return (
@@ -11,10 +12,9 @@ export default function ProductList() {
                 </p>
             </div>
             <div className="pl-list">
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
+            {products.map((item) =>(
+                <Product img={item.img} key={item.img} link={item.link}/>
+            ))}
             </div>
         </div>
     )
