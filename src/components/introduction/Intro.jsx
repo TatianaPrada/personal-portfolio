@@ -1,7 +1,11 @@
 import "./intro.css";
 import FirstImage from '../../img/pixeltrue-idea.png'
+import { useContext } from 'react'
+import {ThemeContext} from '../../context'
 
 export default function Intro() {
+  const theme = useContext(ThemeContext)
+  const darkMode = theme.state.darkMode;
   return (
     <div className="i">
       <div className="i-left">
@@ -29,7 +33,7 @@ export default function Intro() {
           height="75"
           viewBox="0 0 75 75"
           fill="none"
-          stroke="black"
+          stroke={darkMode ? "white" : "black"}
           className="i-scroll"
           xmlns="http://www.w3.org/2000/svg"
         >

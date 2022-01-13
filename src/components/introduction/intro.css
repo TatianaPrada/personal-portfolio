@@ -32,6 +32,12 @@
 
 .i-name {
     font-size: 60px;
+    text-shadow: 3px 5px 2px #999;
+}
+
+.i-desc {
+    font-size: 20px;
+    line-height: 35px;
 }
 
 .i-title {
@@ -118,3 +124,62 @@
     }
   }
 
+  @media screen and (max-width: 599px) {
+      .i {
+          flex-direction: column;
+      }
+      .i-left-wrapper {
+          padding: 10px;
+          align-items: center;
+          text-align: center;
+          justify-content: space-evenly;
+          height: 100%;
+      }
+      .i-desc {
+          display: none;
+      }
+      .i-intro {
+        font-size: 25px;
+
+    }
+      .i-name {
+          font-size: 50px;
+      }
+  }
+
+  @media screen and (min-width: 600px) {
+          .i-left-wrapper {
+              height: 80%;
+          }
+      }
+
+  @media screen and (min-width: 1280px) {
+
+    .i-intro {
+        font-size: 35px;
+        font-weight: 300;
+    }
+    .i-name {
+        font-size: 70px;
+    }
+}
+
+  @media screen and (min-width: 1280px) {
+	.i-left-wrapper {
+        justify-content: space-evenly;
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+	.a-left {
+        display: flex;
+        justify-content: flex-end;
+        height: 100vh;
+        align-items: self-end;
+    }
+
+    .a-card.bg {
+        top: 150px;
+    }
+}

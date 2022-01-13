@@ -1,10 +1,11 @@
 .pl {
-    padding: 50px 100px;
+    padding: 30px 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+   
 }
 
 .pl-texts {
@@ -12,8 +13,9 @@
 }
 
 .pl-title {
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .pl-desc {
@@ -24,5 +26,43 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+@media screen and (max-width:480px) {
+    .pl {
+        padding: 10px;
+        height: 100vh;
+        
+    }
+
+    .pl-texts {
+        width: 100%;
+    }
+
+    .pl-desc {
+        display: none;
+    }
+}
+
+@media screen and (max-width:599px) {
+    .pl {
+        padding: 10px;       
+        
+    }
+}
+    
+@media screen and (min-width: 820px) {
+    .pl {
+        height: 180vh;
+
+    }
+}
+
+@media screen and (min-width: 1700px) {
+
+    .pl {
+        height: 150vh;
+    }
 }

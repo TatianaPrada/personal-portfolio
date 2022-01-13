@@ -6,14 +6,12 @@ export default function ProductList() {
     return (
         <div className='pl'>
             <div className='pl-text'>
-                <h1 className='pl-title'> Create & Inspire</h1>
-                <p className='pl-desc'>
-                    My creative projects 
-                </p>
+                <h1 className='pl-title'> Projects</h1>
+
             </div>
             <div className="pl-list">
             {products.map((item) =>(
-                <Product img={item.img} key={item.img} link={item.link}/>
+                <Product img={item.img} key={item.img} link={item.name} name={item.name} repo={item.repo} desc={item.description} tech={item.techhnologies}/>
             ))}
             </div>
         </div>
