@@ -14,6 +14,7 @@ export default function About() {
           </div>
         </div>
       </Slide>
+      <Slide right>
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
@@ -23,7 +24,7 @@ export default function About() {
         </p>
         <p className="a-desc">
           My journey into programming world began learning JavaScript
-          fundamentals by myself, and from my first 'Hello world' I was strung
+          fundamentals by myself, and from my first 'Hello world' I get obsessed
           out, so I decided to dive into the code world, taking a full-time Web
           Development Bootcamp in IronHack, during which I learned some of the
           most important technologies, involving both front and back-end.{" "}
@@ -52,6 +53,7 @@ export default function About() {
         </div>
       </div>
     </div>
+    </Slide>
     </div>
   );
 }

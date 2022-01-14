@@ -68,7 +68,7 @@
 
   .c-info-item a {
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 200;
     color: black;
     margin-left: 20px;
@@ -109,7 +109,7 @@
     border: none;
     border-bottom: 1px solid black;
     margin: 10px 0px;
-    font-size: 16px;
+    font-size: 1.1rem;
     padding-left: 10px;
     border-radius: 5px;
   }
@@ -131,6 +131,7 @@
     color: white;
     font-weight: 500;
     cursor: pointer;
+    font-size: 1.1rem;
 
   }
   .container {
@@ -167,7 +168,7 @@
     }
     
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
     .c-wrapper {
       flex-direction: column;
       padding: 0px;
@@ -215,10 +216,11 @@
   
     button {
       margin-top: 10px;
+      width: 30%;
     }
 
     .c-title {
-      font-size: 30px;
+      font-size: 30px !important;
     }
     .c-icon {
       width: 20px;
@@ -255,7 +257,7 @@
     }
     textarea {
       font-size: .9rem;
-      height: min-content;
+      height: 80px;
     }
     button {
       margin-top: 10px;
@@ -273,7 +275,7 @@
   }
   @media screen and (max-width: 900px) {
     .c-title {
-      font-size: 50px;
+      font-size: 45px;
       width: 80%;
   }
   .c-right {
@@ -282,12 +284,21 @@
   .c-info-item svg {
     overflow: visible;
   }
+  .c-info-item a {
+  overflow-wrap: anywhere;
+  padding: 0;
+  font-size: .8rem;
+  }
+  .c-wrapper {
 
+    width: calc(100vw - 40px);
+
+}
   }
 
   @media screen and (min-width: 1600px) {
     .bot svg {
-      width: 45vw !important;
+      width: 40vw !important;
     }
     .c-left-text {
       height: 40%;

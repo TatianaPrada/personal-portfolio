@@ -6,6 +6,8 @@ import { ThemeContext } from "../../context";
 import linkedin from "../../img/linkedin.png";
 import email from "../../img/email-logo.png";
 import bot from "../../chatbotColourAnimation.json";
+import Zoom from 'react-reveal/Zoom';
+
 
 export default function Contact() {
   const formRef = useRef();
@@ -54,6 +56,7 @@ export default function Contact() {
       <div className="c-bg">
         <div className="c-wrapper">
           <div className="c-left">
+          <Zoom cascade>
             <div className="c-left-text">
               <h1 className="c-title">Let's talk!</h1>
               <div className="c-info">
@@ -81,6 +84,7 @@ export default function Contact() {
                     tatiana.prada092@gmail.com
                   </a>
                 </div>
+                
                 <div className="c-info-item">
                   <svg viewBox="0 0 128 128" width="35">
                     <g fill={darkMode ? "white" : "black"}>
@@ -102,6 +106,7 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+            </Zoom>
 
             <div
               className="bot"

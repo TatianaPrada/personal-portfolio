@@ -1,12 +1,12 @@
 export const products = [
     {
       id: 1,
-      img: "https://res.cloudinary.com/dkozhxjmw/image/upload/v1642068259/Grouping_oqtcpz.png",
+      img: "https://res.cloudinary.com/dkozhxjmw/image/upload/v1642068088/Grouping-Image_krlntu.png",
       link: "https://app-grouping.herokuapp.com/",
       name:"Grouping",
       repo: "https://github.com/third-project/final-project",
       description: "Grouping is a full-stack web application made as human resources toll, where both employees and HHRR area can access and being part of the same work team.",
-      techhnologies: "Responsive | React.js | JavaScript | HTML5 | CSS3 | MaterialUI | Node.js | Express | MongoDB | Heroku ",
+      techhnologies: "Responsive | React.js | MaterialUI | JavaScript | HTML5 | CSS3 | Node.js | Express | MongoDB | Heroku ",
     },
     {
       id: 2,
@@ -14,8 +14,8 @@ export const products = [
       link: "https://app-smart-weather.herokuapp.com/",
       name:"Smart Weather",
       repo: "https://github.com/TatianaPrada/second-project",
-      description: "Smart Weather is a full-stack web application where you can find real-time and official weather information for millions of locations worldwide. Powered by WeatherAPI.com.",
-      techhnologies: "Responsive | API | JavaScript | HTML5 | CSS3 | Bootstrap | Node.js | Express | MongoDB | Heroku ",
+      description: "Smart Weather is a full-stack web application where you can find real-time and official weather information for millions of locations worldwide, using WeatherAPI.com.",
+      techhnologies: "Responsive | Rest API | JavaScript | HTML5 | CSS3 | Bootstrap | Node.js | Express | MongoDB | Heroku ",
     },
     {
       id: 3,
@@ -23,17 +23,17 @@ export const products = [
       link: "https://tatianaprada.github.io/red-light-green-light/",
       name:"Green Light, Red Light",
       repo: "https://github.com/TatianaPrada/red-light-green-light",
-      description: "",
+      description: "Red light and green light is a game inspired in the 'Squid Game' series, ilustrating a fun version of the history's first game.",
       techhnologies: " JavaScript | HTML5 | CSS3 | Bootstrap | Canvas",
     },
     {
       id: 4,
-      img: "https://app.8b.io/app/themes/webamp/projects/company/thumb.jpg",
+      img: "https://res.cloudinary.com/dkozhxjmw/image/upload/v1642198628/screenshot_7_cxkmba.png",
       link: "http://lama.dev",
-      name:"Portflio Website",
-      repo: "",
-      description: "Personal Website with my latest projects",
-      techhnologies: "Responsive | React.js | JavaScript | HTML5 | CSS3 | MaterialUI | Node.js | Express | MongoDB | Heroku ",
+      name:"Portfolio Website",
+      repo: "https://github.com/TatianaPrada/personal-portfolio",
+      description: "Personal Website where my latest projects are displayed",
+      techhnologies: "Responsive | Animations  | React.js and Context | HTML5 | CSS3 | JavaScript | Node.js | Express | MongoDB | Heroku ",
 
     },
 ];

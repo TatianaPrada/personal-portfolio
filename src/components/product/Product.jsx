@@ -1,9 +1,11 @@
 import './product.css'
 import gitHub from '../../img/github.png'
 import Link from '../../img/link.png'
+import Fade from 'react-reveal/Slide';
 
 export default function Product ({img, link, name, repo, desc, tech}) {
     return (
+        <Fade bottom cascade>
         <div className="card">
         <div className='p'>
             <div className='p-browser'>
@@ -25,5 +27,6 @@ export default function Product ({img, link, name, repo, desc, tech}) {
             <b className="p-tech" >{tech}</b>
         </div>
         </div>
+        </Fade>
     )
 }
