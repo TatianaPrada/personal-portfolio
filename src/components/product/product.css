@@ -8,7 +8,7 @@
 
 .text {
     width: 100%;
-    height: 10vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
 }
@@ -55,8 +55,13 @@
 .p-tech {
     font-size: 20px;
     font-weight: 400;
-    
     text-shadow: 4px 1px 10px rgba(206,14,201,0.66);
+}
+
+
+.p-tech:hover {
+
+    text-shadow: 4px 2px 9px rgba(206,14,201);
 }
 
 .p-links {
@@ -92,7 +97,7 @@
     }
   
     100% {
-      transform: scale(1);
+      transform: scale(1.6);
     }
   }
 
