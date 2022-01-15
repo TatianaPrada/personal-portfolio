@@ -2,7 +2,7 @@ export const products = [
     {
       id: 1,
       img: "https://res.cloudinary.com/dkozhxjmw/image/upload/v1642068088/Grouping-Image_krlntu.png",
-      link: "https://app-grouping.herokuapp.com/",
+      link: "https://app-grouping.herokuapp.com",
       name:"Grouping",
       repo: "https://github.com/third-project/final-project",
       description: "Grouping is a full-stack web application made as human resources toll, where both employees and HHRR area can access and being part of the same work team.",
@@ -20,7 +20,7 @@ export const products = [
     {
       id: 3,
       img: "https://res.cloudinary.com/dkozhxjmw/image/upload/v1642071119/Disen%CC%83o_sin_ti%CC%81tulo_2_xztwow.png",
-      link: "https://tatianaprada.github.io/red-light-green-light/",
+      link: "",
       name:"Green Light, Red Light",
       repo: "https://github.com/TatianaPrada/red-light-green-light",
       description: "Red light and green light is a game inspired in the 'Squid Game' series, ilustrating a fun version of the history's first game.",
@@ -29,7 +29,7 @@ export const products = [
     {
       id: 4,
       img: "https://res.cloudinary.com/dkozhxjmw/image/upload/v1642198628/screenshot_7_cxkmba.png",
-      link: "http://lama.dev",
+      link: "https://tprada-portfolio.herokuapp.com/",
       name:"Portfolio Website",
       repo: "https://github.com/TatianaPrada/personal-portfolio",
       description: "Personal Website where my latest projects are displayed",

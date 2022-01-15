@@ -44,7 +44,7 @@
 }
 
 .p:hover .p-img {
-    transform: translateY(-100%);
+    transform: translateY(-60%);
 }
 
 .p-desc {
@@ -107,12 +107,17 @@
         width: 90%;
         height: 20vh;
     }
-    .text p, .text b {
+    .text b {
         display: none;
     }
 
+    .text-b {
+        font-size: .7rem;
+        overflow: hidden;
+    }
+
     .card {
-        height: 35vh;
+        height: fit-content;
     }
     .p-links {
         width: 80%;
@@ -128,7 +133,6 @@
     .p-name {
         font-size: 19px;
     }
-
     .card {
         height: 40vh;
     }

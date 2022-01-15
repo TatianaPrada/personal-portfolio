@@ -11,7 +11,7 @@ export default function ProductList() {
             </div>
             <div className="pl-list">
             {products.map((item) =>(
-                <Product img={item.img} key={item.img} link={item.name} name={item.name} repo={item.repo} desc={item.description} tech={item.techhnologies}/>
+                <Product img={item.img} key={item.img} link={item.link} name={item.name} repo={item.repo} desc={item.description} tech={item.techhnologies}/>
             ))}
             </div>
         </div>
