@@ -15,14 +15,13 @@ export default function Intro() {
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">JavaScript </div>
-              <div className="i-title-item">Node.js</div>
-              <div className="i-title-item">Express</div>
-              <div className="i-title-item">React.js</div>
+              <div className="i-title-item">JavaScript</div>
+              <div className="i-title-item">React.js </div>
+              <div className="i-title-item">Node.js - Express</div>
             </div>
           </div>
           <p className="i-desc">
-            👩🏻‍💻 Junior Full-Stack Web Developer with a Bachelor Degree in
+            👩🏻‍💻 I am a  Full-Stack Web Developer with a Bachelor Degree in
             Languages Teaching.
             Not just a tech enthusiast, I am a full-time,
             hardworking and self-motivated learner. 

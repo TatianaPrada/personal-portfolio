@@ -52,10 +52,10 @@ export default function Contact() {
   };
 
   return (
-    <div className="c">
+    <div className="c" >
       <div className="c-bg">
-        <div className="c-wrapper">
-          <div className="c-left">
+        <div className="c-wrapper" >
+          <div className="c-left" style={{ backgroundColor: darkMode && "#222" }}>
           <Zoom cascade>
             <div className="c-left-text">
               <h1 className="c-title">Let's talk!</h1>
@@ -117,9 +117,9 @@ export default function Contact() {
             ></div>
           </div>
 
-          <div className="c-right">
+          <div className="c-right" style={{ backgroundColor: darkMode && "#222" }}>
             <div>
-              <p className="c-desc">Do you any question?</p>
+              <p className="c-desc">Do you have any question?</p>
 
               <p className="c-desc2">Get in touch.</p>
             </div>
@@ -130,17 +130,19 @@ export default function Contact() {
                 type="text"
                 placeholder="Name"
                 name="user_name"
+                className="hidden"
               />
               <input
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="text"
                 placeholder="Subject"
                 name="user_subject"
+                className="hidden"
               />
               <input
                 style={{ backgroundColor: darkMode && "#333" }}
                 type="email"
-                placeholder="Email"
+                placeholder="Your email"
                 name="user_email"
                 required="true"
               />

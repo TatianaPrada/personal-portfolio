@@ -5,7 +5,7 @@ export const products = [
       link: "https://app-grouping.herokuapp.com",
       name:"Grouping",
       repo: "https://github.com/third-project/final-project",
-      description: "Grouping is a full-stack web application made as human resources toll, where both employees and HHRR area can access and being part of the same work team.",
+      description: "Grouping is a full-stack web application made as human resources toll, where both employees and HR area can access and being part of the same work team.",
       techhnologies: "Responsive | React.js | MaterialUI | JavaScript | HTML5 | CSS3 | Node.js | Express | MongoDB | Heroku ",
     },
     {
