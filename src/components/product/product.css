@@ -50,11 +50,12 @@
 .p-desc {
     font-size: 1rem;
     margin-bottom: 20px;
+    font-weight: 200;
 }
 
 .p-tech {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     text-shadow: 4px 1px 10px rgba(206,14,201,0.3);
 }
 
