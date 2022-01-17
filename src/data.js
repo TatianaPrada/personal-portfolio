@@ -20,20 +20,20 @@ export const products = [
     {
       id: 3,
       img: "https://res.cloudinary.com/dkozhxjmw/image/upload/v1642071119/Disen%CC%83o_sin_ti%CC%81tulo_2_xztwow.png",
-      link: "",
+      link: "https://tatianaprada.github.io/red-light-green-light/",
       name:"Green Light, Red Light",
       repo: "https://github.com/TatianaPrada/red-light-green-light",
       description: "Red light and green light is a game inspired in the 'Squid Game' series, ilustrating a fun version of the history's first game.",
-      techhnologies: " JavaScript | HTML5 | CSS3 | Bootstrap | Canvas",
+      techhnologies: " Vanilla JavaScript | HTML5 | CSS3 | Bootstrap | Canvas",
     },
     {
       id: 4,
       img: "https://res.cloudinary.com/dkozhxjmw/image/upload/v1642198628/screenshot_7_cxkmba.png",
-      link: "https://tprada-portfolio.herokuapp.com/",
+      link: "https://tprada.herokuapp.com/",
       name:"Portfolio Website",
       repo: "https://github.com/TatianaPrada/personal-portfolio",
-      description: "Personal Website where my latest projects are displayed",
-      techhnologies: "Responsive | Animations  | React.js and Context | HTML5 | CSS3 | JavaScript | Node.js | Express | MongoDB | Heroku ",
+      description: "Personal Website where my latest projects are displayed.",
+      techhnologies: "Responsive | Animations | React.js and Context | HTML5 | CSS3 | JavaScript | Node.js | Express | MongoDB | Heroku ",
 
     },
 ];

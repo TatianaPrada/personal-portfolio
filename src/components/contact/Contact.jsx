@@ -158,7 +158,7 @@ export default function Contact() {
             </form>
           </div>
         </div>
-        <div className="container">
+        <div className="container" >
           <span>
             © 2022 Created by {" "}
             <a href="https://www.linkedin.com/in/tatiana-prada/" target="blank">

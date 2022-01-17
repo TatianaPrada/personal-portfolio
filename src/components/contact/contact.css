@@ -31,9 +31,16 @@
     height: 50%;
   }
   .bot svg {
-    height: 50% !important;
+  
+    /* height: 50% !important; */
     justify-self: end;
     
+  }
+
+  .bot {
+    width: 70%;
+    height: 40%;
+    margin-top: 5%;
   }
 
 
@@ -76,7 +83,6 @@
 
   .c-info-item a:hover {
     text-shadow: 4px 1px 10px rgba(206,14,201,0.66);
-    font-size: 1.3rem;
   }
   
 
@@ -176,6 +182,7 @@
       margin-top: 30px;
       height: 89vh;
     }
+
     .c-left {
       width: 100%;
       padding: 0;
@@ -322,9 +329,12 @@
       height: 20%;
     }
     .c {
-      height: 120vh;
+      height: 110vh;
     }
     .c-wrapper {
       height: 90%;
+    }
+    .bot {
+      display: none;
     }
   } 
