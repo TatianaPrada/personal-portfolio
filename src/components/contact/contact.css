@@ -164,16 +164,17 @@
 
   
   @media screen and (max-width: 1100px){
-    .bot svg {
+
+    
+    .bot {
       display: none;
-      
     }
     .c-left-text {
       height: 80vh;
     margin-top: 5vh;
     }
-    
   }
+  
   @media screen and (max-width: 600px) {
     .c-wrapper {
       flex-direction: column;

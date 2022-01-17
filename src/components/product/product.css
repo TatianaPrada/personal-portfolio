@@ -48,12 +48,12 @@
 }
 
 .p-desc {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 20px;
 }
 
 .p-tech {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 400;
     text-shadow: 4px 1px 10px rgba(206,14,201,0.3);
 }
@@ -165,8 +165,8 @@
 
 @media screen and (min-width: 1800px) {
     .card {
-        max-width: 850px;
-        height: 65vh;
+        max-width: 800px;
+        height: 50%;
     }
 
     .p-desc {

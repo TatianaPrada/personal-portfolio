@@ -51,10 +51,12 @@
 
 .a-sub {
     margin: 20px 0px;
+    font-size: 1rem;
 }
 
 .a-des {
     font-weight: 200;
+    font-size: 1rem;
 }
 
 .a-award {
@@ -142,9 +144,7 @@
 }
 
   @media screen and (min-width: 600px) {
-	.a-desc2 {
-        display: table-column;
-    }
+
     .a-right {
         padding: 20px;
         line-height: 28px;
@@ -177,12 +177,12 @@
 
     }
     .a-sub {
-        font-size: 22px;
+        font-size: 1.1rem;
         line-height: 30px;
         margin-right: 10px;
     }
     .a-desc {
-        font-size: 20px;
+        font-size: 1.1rem;
         line-height: 30px;
         margin-right: 10px;
     }
