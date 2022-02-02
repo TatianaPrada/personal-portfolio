@@ -23,7 +23,7 @@ export const products = [
       link: "https://tatianaprada.github.io/red-light-green-light/",
       name:"Green Light, Red Light",
       repo: "https://github.com/TatianaPrada/red-light-green-light",
-      description: "Red light and green light is a game inspired in the 'Squid Game' series, ilustrating a fun version of the history's first game.",
+      description: "Red light and green light is a game inspired in the 'Squid Game' series, illustrating a fun version of the history's first game.",
       techhnologies: " Vanilla JavaScript | HTML5 | CSS3 | Bootstrap | Canvas",
     },
     {
