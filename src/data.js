@@ -6,7 +6,7 @@ export const products = [
       name:"Grouping",
       repo: "https://github.com/third-project/final-project",
       description: "Grouping is a full-stack web application made as human resources toll, where both employees and HR area can access and being part of the same work team.",
-      techhnologies: "Responsive | React.js | MaterialUI | JavaScript | HTML5 | CSS3 | Node.js | Express | MongoDB | Heroku ",
+      techhnologies: "Responsive | React.js | MaterialUI | JavaScript | HTML5 | CSS3 | Node.js | Express | MongoDB | JWT Authentication | Heroku ",
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ export const products = [
       name:"Smart Weather",
       repo: "https://github.com/TatianaPrada/second-project",
       description: "Smart Weather is a full-stack web application where you can find real-time and official weather information for millions of locations worldwide, using WeatherAPI.com.",
-      techhnologies: "Responsive | Rest API | JavaScript | HTML5 | CSS3 | Bootstrap | Node.js | Express | MongoDB | Heroku ",
+      techhnologies: "Responsive | Rest API | JavaScript | HTML5 | CSS3 | Bootstrap | Node.js | Express | MongoDB | Mongoose session | Heroku ",
     },
     {
       id: 3,
